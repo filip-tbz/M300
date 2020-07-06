@@ -304,9 +304,7 @@ Eine Begrenzung des Neustartes ist intelligent, da wenn ein Container nicht rich
  
  Ich habe versucht, dass Monitoring Tool zu installieren, was leider aber nicht richtig funktioniert hat. Ich hab es mit diesem Befehl versucht: 
  
-    ```Shell 
    $ docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -    v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080         google/cadvisor:latest
-   ````
    
 K5
 =====
